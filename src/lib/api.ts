@@ -7,7 +7,7 @@ import {
 } from '@/types';
 import { authStorage } from './auth';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://lab6-4sh5.onrender.com';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://lab6-mswi.onrender.com';
 
 type RequestOptions = RequestInit & {
   token?: string;
